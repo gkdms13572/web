@@ -1,0 +1,38 @@
+<html lang="ko">
+<head>
+    <style>
+        body{
+
+            color: blue; background-color: linen;
+        }
+        span{
+            color: greenyellow; font-size: 15;
+        }
+        hr {
+            height: 5px; border: solid gray;
+            background-color: gray;
+        }
+        h3 {
+            text-align: center; color:  brown;
+        }
+    </style>
+    <script>
+        // #javascript 코드 작성
+        // - 함수형태로 작성
+        function show(){
+            document.getElementById("fig").src="복숭아.jpg"
+        }
+        function hide(){
+            document.getElementById("fig").src=""
+        }
+    </script>
+</head>
+<body>
+    <h3 나는 onmouseover="show()" onmouseout="hide()">나는 복숭아입니다.</h3>
+    <hr>
+    <div><img id="fig" src=""></div> 
+    나는 <span> 서하은</span> 입니다
+    오늘 처음으로 만든 <span> 페이지</span>입니다.
+    감사합니다.
+</body>
+</html>
