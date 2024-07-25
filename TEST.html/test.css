@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(229, 236, 241);
+}
+
+#title {
+    color: brown;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* p태그의 제목들 */
+h2 {
+    margin-left: 10px;
+    color: blue;
+    text-shadow: 5px 5px 5px rgb(165, 165, 165) /* 네온 색상 */
+}
+
+/* p태그 텍스트 */
+.title_p {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-left: 10px;
+}
+
+/* p태그 들여쓰기 */
+.indent {
+    text-indent: 2em;    
+}
+
+/* ul태그 네모 박스 */
+#tattitle_p, in
+.square-box {
+    border: 2px solid black; /* 네모 박스를 만드는 테두리 */
+    padding: 20px; /* 박스 내부 여백 */
+    width: 100%; /* 박스의 너비 */
+    list-style-type: square; /* 네모 모양의 리스트 아이템 */
+    list-style-type: circle
+}
+
+/* span구역 배경이미지 */
+span {
+    display: inline-block;
+    /* inline-block으로 변경해야 이미지 배경 설정 가능 */
+    background-image: url("./웹.png");
+}
+
+#servey {
+    border: 2px solid #333; /* 테두리 색상 및 두께 */
+    border-radius: 15px; /* 둥글기 정도 */
+    background-color: #ffae00; /* 배경색 */
+    width: 100%; /* 내용에 맞게 너비 조정 */
+    text-align: left; /* 텍스트 가운데 정렬 */
+    font-family: "Gowun Dodum", sans-serif;
+}
+
+#servey a{
+    text-decoration: none;
+    /* 링크의 밑줄 제거 */
+}
